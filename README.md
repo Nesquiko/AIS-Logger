@@ -1,6 +1,12 @@
 # AIS-Logger
 Automatic login into STU AIS system
 
+### Usage
+
+1. Open AIS Logger popup through its extension icon.
+2. Enter username, password and click Save button to store them.
+3. When landing on https://is.stuba.sk/auth, credentials will be automatically entered.
+
 ### Setup
 
 1. Open Chrome.
