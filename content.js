@@ -13,9 +13,3 @@ chrome.storage.sync.get(["password"], function (result) {
 setTimeout(function () {
     document.getElementById("login-btn").click();
 }, 100);
-
-// When Save button in popup.html is clicked this will execute.
-chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
-    chrome.storage.sync.set({ uname: request[0] });
-    chrome.storage.sync.set({ password: request[1] });
-});

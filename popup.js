@@ -5,17 +5,15 @@ document.addEventListener(
             .getElementById("save-btn")
             .addEventListener("click", onclick, false);
 
+        // This function runs after the save button is clicked.
         function onclick() {
-            var uname = document.getElementById("username").value;
+            var username = document.getElementById("username").value;
 
-            var password = document.getElementById("password").value;
+            var pswd = document.getElementById("password").value;
 
-            chrome.tabs.query(
-                { currentWindow: true, active: true },
-                function (tabs) {
-                    chrome.tabs.sendMessage(tabs[0].id, [uname, password]);
-                }
-            );
+            chrome.storage.sync.set({ uname: username });
+
+            chrome.storage.sync.set({ password: pswd });
         }
     },
     false
