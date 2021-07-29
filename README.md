@@ -1,6 +1,10 @@
 # AIS-Logger
 Automatic login into STU AIS system.
 
+## Features
+- Automatic logging into AIS.
+- On/Off toggle.
+
 ## Usage
 
 1. Open AIS Logger popup through its extension icon.
@@ -18,3 +22,9 @@ Automatic login into STU AIS system.
 5. In left upper corner click **Load unpacked** 
 6. Locate **AIS Logger folder** and select it.
 7. In the Extensions tab below should be new extension AIS Logger.
+
+## Log
+- 1.0
+	- basic functionality. Automatic logging into AIS.
+- 2.0
+	- On/Off toggle.
