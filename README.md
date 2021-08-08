@@ -22,6 +22,8 @@ You can find AIS Logger on the official chrome web store!
 ## Log
 
 - 1.0
-	- basic functionality. Automatic logging into AIS.
+	- Basic functionality. Automatic logging into AIS.
 - 2.0
 	- On/Off toggle.
+- 2.1
+	- Indication of saving. 
