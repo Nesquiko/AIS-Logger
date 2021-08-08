@@ -1,7 +1,9 @@
 # AIS-Logger
+
 Automatic login into STU AIS system.
 
 ## Features
+
 - Automatic logging into AIS.
 - On/Off toggle.
 
@@ -13,17 +15,12 @@ Automatic login into STU AIS system.
 4. After entering all credentials Login button is clicked.
 5. If your credentials are valid, you should be in a main screen of AIS for a logged user.
 
-## Setup
+## Installation
 
-1. Open Chrome.
-2. Click on the **three dots** in right upper corner.
-3. Navigate to **More Tools -> Extenstions.**
-4. In right upper corner **toggle on Developer mode.**
-5. In left upper corner click **Load unpacked** 
-6. Locate **AIS Logger folder** and select it.
-7. In the Extensions tab below should be new extension AIS Logger.
+You can find AIS Logger on the official chrome web store!
 
 ## Log
+
 - 1.0
 	- basic functionality. Automatic logging into AIS.
 - 2.0
