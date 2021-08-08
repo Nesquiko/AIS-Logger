@@ -12,6 +12,11 @@ document.addEventListener(
             var username = document.getElementById("username").value;
             var pswd = document.getElementById("password").value;
 
+            // Reset values in input fields and show "Saved!" text.
+            document.getElementById("username").value = "";
+            document.getElementById("password").value = "";
+            document.getElementById("saved").style.display = "block";
+
             chrome.storage.sync.set({ uname: username });
             chrome.storage.sync.set({ password: pswd });
         }
